@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Meghadūtam</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png">
+    <!-- Libraries -->
+    <script src="../../assets/libraries/p5.min.js"></script>
+    <script src="../../assets/libraries/p5.dom.min.js"></script>
+    <script src="../../assets/libraries/p5.sound.min.js"></script>
+    <!-- Styles -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      /**
+      * Fade in on page load.
+      * https://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load
+      */
+      canvas {
+        -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+          -moz-animation: fadein 10s; /* Firefox < 16 */
+            -ms-animation: fadein 10s; /* Internet Explorer */
+            -o-animation: fadein 10s; /* Opera < 12.1 */
+                animation: fadein 10s;
+      }
+      @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+      }
+      @-moz-keyframes fadein {
+          from { opacity: 0; }
+          to   { opacity: 1; }
+      }
+      @-webkit-keyframes fadein {
+          from { opacity: 0; }
+          to   { opacity: 1; }
+      }
+      @-ms-keyframes fadein {
+          from { opacity: 0; }
+          to   { opacity: 1; }
+      }
+      @-o-keyframes fadein {
+          from { opacity: 0; }
+          to   { opacity: 1; }
+      }
+
+      .loader {
+        border: 5px solid #000;
+        border-top: 5px solid #888;
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        animation: spin .5s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="p5_loading" class="loader"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
