@@ -4,7 +4,7 @@ This project envisions Kalidāsā's venerable poetry — Meghadūtam — as inte
 
 **Links**
 
-1. View the [project](https://pritipg.in/work/meghadutam/)
+1. View the [project](https://meghadutam.priti.is)
 2. Read the [exegesis](exegesis.pdf)
 
 **Teaser**
