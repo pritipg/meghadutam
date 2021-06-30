@@ -13,4 +13,6 @@ This project envisions Kalidāsā's venerable poetry — Meghadūtam — as inte
 ![PritiPandurangan-Typoday2020-Image-02](https://user-images.githubusercontent.com/15939958/118765588-e7e4bf80-b898-11eb-9f69-4f9380b28a49.JPG)
 ![PritiPandurangan-Typoday2020-Image-03](https://user-images.githubusercontent.com/15939958/118765596-eb784680-b898-11eb-945b-56d34868936a.JPG)
 
-
+**Copyright**
+Copyright © 2021 by Priti Pandurangan. All rights reserved. 
+Feel free to peruse the code to understand how it works but please do not create derivative works without the author's written consent or share without attribution. Thank you!
