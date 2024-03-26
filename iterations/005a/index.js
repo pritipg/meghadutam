@@ -52,7 +52,9 @@ function preload() {
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight, WEBGL)
-  
+ 
+  frameRate(30)
+ 
   smooth()
 
   textFont(font)

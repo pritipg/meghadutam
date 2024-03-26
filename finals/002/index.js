@@ -46,6 +46,8 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL)
 
+  frameRate(30)
+
   textFont(font)
   textSize(fontSize)
   textAlign(CENTER, CENTER)

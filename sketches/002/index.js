@@ -35,7 +35,9 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL)
-
+ 
+  frameRate(30)
+ 
   textFont(font)
   angleMode(DEGREES)
   smooth()
